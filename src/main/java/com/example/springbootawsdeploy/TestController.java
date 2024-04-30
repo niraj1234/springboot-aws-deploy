@@ -22,4 +22,9 @@ public class TestController {
     	return "Hello Niraj";
     }
 
+    @GetMapping("/news")
+    public String news() {
+    	return "Latest news from AWS Deployment";
+    }
+
 }
