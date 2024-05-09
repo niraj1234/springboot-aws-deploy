@@ -24,7 +24,7 @@ public class TestController {
 
     @GetMapping("/news")
     public String news() {
-    	return "Latest news from AWS Deployment";
+    	return "Latest news from AWS Deployment 09-05-2024";
     }
 
 }
